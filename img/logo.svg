@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="Dashboard" transform="translate(-132.000000, -186.000000)" fill="#FFFFFF">
+            <g id="left-sidebar" transform="translate(92.000000, 186.000000)">
+                <g id="logo" transform="translate(40.000000, 0.000000)">
+                    <path d="M0.679442072,4.75552324 C16.6552911,13.9583887 22.4306921,24.1943114 18.0056453,35.4632913 C6.58636374,33.5547765 0.81096267,23.3188538 0.679442072,4.75552324 Z" id="Path-36-Copy-2"></path>
+                    <path d="M35.3372803,4.75552324 C19.3614313,13.9583887 13.5860302,24.1943114 18.0110771,35.4632913 C29.4303586,33.5547765 35.2057597,23.3188538 35.3372803,4.75552324 Z" id="Path-36-Copy-3"></path>
+                    <path d="M18.0003406,3.55271368e-15 C8.6617042,16.1436055 8.6617042,27.9630309 18.0003406,35.4582763 C26.9571587,27.9630309 26.9571587,16.1436055 18.0003406,3.55271368e-15 Z" id="Path-36"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

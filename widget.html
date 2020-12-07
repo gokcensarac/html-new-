@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="widget.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="widget">
+        <div class="no">
+            <span>2033112312312_1</span>
+            <i class="fas fa-link"></i>
+            <span class="chip">Rossmann</span>
+        </div>
+        <div class="mid">
+            <div class="name">
+                <i class="far fa-user"></i>
+                <span id="name">Emerson Carder</span>
+                <div class="line"></div>
+            </div>
+            <div id="event" onclick="myFunction()" class="badge">
+                <i class="far fa-clock"></i>
+                <span>3 gün</span>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="loc">
+                <div class="loc1">
+                    <i class="fas fa-arrow-up"></i>
+                    <span>Yolda</span>
+                </div>
+                <div class="loc2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Kızılay</span>
+                </div>
+            </div>
+
+            <div class="photo">
+                <div class="photo1">
+                    <img src="https://cdn.jpegmini.com/user/images/slider_puffin_before_mobile.jpg" alt="">
+                </div>
+                <div class="photo2">
+                    <img src="https://cdn.jpegmini.com/user/images/slider_puffin_before_mobile.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+<script>
+    document.getElementById('event').addEventListener('click', function() {
+        document.getElementById('name').innerHTML = 'Gökçen Sarac'
+    })
+</script>
+
+</html>

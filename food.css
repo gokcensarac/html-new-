@@ -1,0 +1,121 @@
+    body {
+        background: lightgrey;
+    }
+    
+    .card {
+        width: 400px;
+        height: 600px;
+        background: #fff;
+        border-radius: 15px;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    
+    .picture {
+        display: flex;
+    }
+    
+    .card .picture img {
+        width: 400px;
+        height: 250px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .card .picture i {
+        margin-left: -50px;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 10px;
+        opacity: 0.7;
+    }
+    
+    .card .head {
+        display: flex;
+    }
+    
+    .card .head span {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-top: 38px;
+        margin-left: 25px;
+    }
+    
+    .card .head .icon1 {
+        font-size: 25px;
+        margin-top: 45px;
+        margin-left: 80px;
+        color: red;
+    }
+    
+    .card .head .icon2 {
+        font-size: 25px;
+        margin-top: 45px;
+        margin-left: 15px;
+        color: orange;
+    }
+    
+    .card .comment {
+        margin-top: 35px;
+    }
+    
+    .card .comment p {
+        font-size: 18px;
+        text-align: start;
+        line-height: 15px;
+        margin-left: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: grey;
+    }
+    
+    .card .rate {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: grey;
+    }
+    
+    .card .rate span {
+        font-size: 16px;
+    }
+    
+    .card .price {
+        display: flex;
+    }
+    
+    .card .price .first-money {
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 25px;
+        margin-top: 40px;
+    }
+    
+    .card .price .red {
+        font-size: 23px;
+        text-decoration: line-through;
+        font-weight: bold;
+        color: #bb2205;
+        margin-top: 48px;
+        margin-left: 10px;
+    }
+    
+    .card .price .order {
+        width: 150px;
+        height: 60px;
+        background: #79d70f;
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card .price .order span {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+    }

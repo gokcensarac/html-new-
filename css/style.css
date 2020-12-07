@@ -1,0 +1,116 @@
+.try {
+    padding: 8px 10px;
+    margin: 0px;
+    border: 1px solid #a2a2a2;
+}
+
+.example {
+    padding: 8px 15px;
+    margin: 0px;
+    margin-left: -5px;
+    background-color: #f8f8f8;
+    border: 1px solid #a2a2a2;
+    outline: none
+}
+
+.example:hover {
+    color: #a2a2a2;
+}
+
+.try:focus {
+    border: 1px solid blue;
+    outline: none
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.name {
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 40px
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    width: 300px;
+    height: 350px;
+    display: flex;
+}
+
+.total {
+    display: flex;
+}
+
+.promotion {
+    width: 510px;
+    height: 116px;
+    background-color: rgb(242, 210, 215);
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.ort {
+    display: flex;
+}
+
+.text1 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text2 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.num1 {
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.num2 {
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tool {
+    margin-left: 100px;
+}
+
+.text1:hover {
+    color: #a2a2a2;
+}
+
+.text2:hover {
+    color: #a2a2a2;
+}
+
+.h1:hover {
+    color: #a2a2a2;
+}
+
+.h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}

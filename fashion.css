@@ -1,0 +1,256 @@
+body {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+}
+
+.right .head {
+    display: flex;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.head h2 {
+    margin-bottom: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.right .menu {
+    width: 232px;
+    height: 599px;
+    background: #F6F4EC;
+    margin-right: 5px;
+}
+
+.right .menu h3 {
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 67px;
+}
+
+.right .menu .categories .top-all {
+    display: flex;
+    flex-direction: column;
+    line-height: 42px;
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+.right .menu .categories .top-all .alt-sellect {
+    color: #6B6B6B;
+    display: flex;
+    flex-direction: column;
+    line-height: 38px;
+    font-size: 13px;
+}
+
+.right .menu .categories .top-all .hover:hover {
+    border-left: 0.5px solid #6B6B6B;
+}
+
+.shop-all {
+    width: 232px;
+    height: 88px;
+    background: #E66300;
+    display: flex;
+    align-items: center;
+}
+
+.shop-all .plus:hover {
+    transform: scale(1.1);
+}
+
+.shop-all i {
+    font-size: 24px;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.shop-all .plus {
+    margin-left: 66px;
+    font-family: 'Lato', sans-serif;
+}
+
+.shop-all .plus span {
+    margin-left: 5px;
+    font-size: 18px;
+    align-items: center;
+    color: #fff;
+}
+
+.body-page .header {
+    word-spacing: 77px;
+    margin-left: 306px;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    color: #2A2A2A;
+}
+
+.body-page .left {
+    font-size: 15px;
+    text-align: right;
+    margin-left: 870px;
+    word-spacing: 30px;
+    display: block;
+    margin-top: -20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.body-page .left :hover {
+    border: 1px solid #000;
+    padding: 5px 20px;
+}
+
+.body-page .header :hover {
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.body-page .header i {
+    font-size: 18px;
+}
+
+.body-page .header .new {
+    font-family: 'Playfair Display', serif;
+}
+
+.body-page .catalog .text1 {
+    margin-left: 80px;
+    font-size: 24px;
+    margin-top: 150px;
+    display: block;
+}
+
+.catalog .photo1 {
+    display: flex;
+}
+
+.catalog .photo1 img {
+    width: 240px;
+    height: 285px;
+    margin-top: 54px;
+    margin-left: 80px;
+    position: absolute;
+    z-index: -1;
+}
+
+.catalog .photo1 .number1 {
+    font-size: 38px;
+    margin-left: 84px;
+    display: block;
+    margin-top: 20px;
+}
+
+.catalog .photo1 .text {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 340px;
+    margin-top: 80px;
+    line-height: 35px;
+    color: #2A2A2A;
+    position: absolute;
+}
+
+.catalog .photo1 .text .view {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.catalog .photo1 .text .view-all {
+    display: flex;
+}
+
+.catalog .photo1 .text .view-all .rectangle {
+    width: 25px;
+    height: 1px;
+    background: #E66300;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.catalog .photo1 .text .number-a {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-top: 165px;
+}
+
+.catalog .photo2 {
+    display: flex;
+}
+
+.catalog .photo2 img {
+    width: 240px;
+    height: 285px;
+    margin-left: 375px;
+    margin-top: 292px;
+    position: absolute;
+    z-index: -1;
+}
+
+.catalog .photo2 .number2 {
+    margin-left: 560px;
+    margin-top: 260px;
+    font-size: 38px;
+}
+
+.catalog .photo2 .text2 {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 330px;
+    line-height: 35px;
+    color: #2A2A2A;
+    position: absolute;
+    margin-left: 202px;
+}
+
+.catalog .photo2 .text2 .view-down {
+    display: flex;
+}
+
+.catalog .photo2 .text2 .view-down .rectangle1 {
+    width: 25px;
+    height: 1px;
+    background: #E66300;
+    margin-top: 18px;
+    margin-left: 60px;
+}
+
+.catalog .photo2 .text2 .view-down .view {
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.catalog .photo2 .text2 .number-b {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.left-box {
+    display: flex;
+}
+
+.left-box img {
+    width: 397px;
+    height: 645px;
+    margin-top: 155px;
+    margin-left: -240px;
+    position: absolute;
+    z-index: -1;
+}
+
+.left-box span {
+    margin-top: 180px;
+    font-size: 51px;
+    margin-left: -150px;
+    white-space: nowrap;
+    transform: rotate(270deg);
+    color: rgba(242, 185, 174, 0.5);
+}
